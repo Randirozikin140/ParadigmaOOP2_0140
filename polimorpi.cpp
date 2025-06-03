@@ -27,4 +27,12 @@ int main() {
     seseorang *obyek;
     joko a;
     lia b;
+
+    obyek = &a;
+    obyek->pesan(); // Output: Pesan dari joko
+    obyek = &b;
+    obyek->pesan(); // Output: pesan dari lia
+    //a.seseorang ::pesan();
+    //b.seseorang ::pesan();
+    return 0;
 }
