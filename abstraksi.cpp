@@ -8,7 +8,7 @@ class AbstraksiKlas {
     public:
     // method untuk mengisi nilai
     //private number
-    void setX(string a, string b) {
+    void setXY(string a, string b) {
         x = a;
         y = b;
     }
@@ -21,3 +21,10 @@ class AbstraksiKlas {
 
 
 };
+
+int main(){
+    AbstraksiKlas ak;
+    ak.setXY("Yogyakarta", "Kampus");
+    ak.display();
+    return 0;
+}
